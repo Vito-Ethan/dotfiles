@@ -10,6 +10,7 @@ return {
       local api = require 'nvim-tree.api'
 
       vim.keymap.set('n', '<leader>tt', api.tree.toggle, { desc = 'nvim-tree: [T]oggle [T]ree' })
+      vim.keymap.set('n', '<leader>cd', api.tree.change_root_to_node, { desc = 'nvim-tree: Go into directory' })
 
       local function my_on_attach(bufnr)
         local function opts(desc)

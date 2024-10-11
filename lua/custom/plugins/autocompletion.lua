@@ -111,6 +111,9 @@ return {
           { name = 'luasnip' },
           { name = 'path' },
         },
+        formatting = {
+          format = require('nvim-highlight-colors').format,
+        },
       }
     end,
   },
