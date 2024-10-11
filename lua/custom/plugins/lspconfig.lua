@@ -1,3 +1,5 @@
+-- NOTE: if you ever wanna change the diagnostics signs see here:
+-- https://github.com/neovim/nvim-lspconfig/wiki/UI-Customization
 return {
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
