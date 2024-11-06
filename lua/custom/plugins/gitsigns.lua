@@ -19,6 +19,7 @@ return {
         },
       }
       vim.keymap.set('n', '<leader>gp', ':Gitsigns preview_hunk<CR>', { desc = '[G]it [P]review hunk' })
+      vim.keymap.set('n', '<leader>gr', ':Gitsigns reset_hunk<CR>', { desc = '[G]it [R]eset hunk' })
     end,
   },
 }
