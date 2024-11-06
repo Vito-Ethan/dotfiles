@@ -32,7 +32,7 @@ return {
         typescript = { 'prettier' },
         javascriptreact = { 'prettier' },
         typescriptreact = { 'prettier' },
-        css = { 'pretter' },
+        css = { 'prettier' },
         html = { 'prettier' },
         json = { 'prettier' },
       },
