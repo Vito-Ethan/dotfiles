@@ -12,6 +12,8 @@ return {
         javascriptreact = { 'eslint' },
         typescriptreact = { 'eslint' },
         python = { 'pylint' },
+        html = { 'htmlhint' },
+        css = { 'stylelint' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
