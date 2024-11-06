@@ -23,7 +23,7 @@ return {
       error = '#FF6F61', -- FIX: asdof
       warning = '#FFD54F', -- WARN: asdof
       info = '#4DB6AC', -- TODO: asdof
-      hint = '#00796B', -- NOTE: asdof
+      hint = '#D3B4E3', -- NOTE: asdof
       default = '#6A1B9A', --
       test = '#FFB300', -- TEST:
     },
