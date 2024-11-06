@@ -75,9 +75,10 @@ vim.opt.scrolloff = 15
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
--- Buffer Navigation
+-- Buffer Commands
 vim.keymap.set('n', '<leader>bb', ':bprev<CR>', { desc = 'Go to prev buffer' })
 vim.keymap.set('n', '<leader>nn', ':bnext<CR>', { desc = 'Go to next buffer' })
+vim.keymap.set('n', '<leader>bd', ':%bd|e#|bd#<CR>', { desc = 'Delete all buffers except current' })
 
 -- Quickfix List Navigation
 vim.keymap.set('n', '<leader>cn', ':cnext<CR>', { desc = 'Next item in quickfix list' })
