@@ -8,9 +8,10 @@ return {
     name = 'rose-pine',
     priority = 1000, -- Make sure to load this before all the other start plugins.
     init = function()
+      local palette = require 'rose-pine.palette'
       require('rose-pine').setup {
-        variant = 'moon', -- auto, main, moon, or dawn
-        dark_variant = 'moon', -- main, moon, or dawn
+        variant = 'auto', -- auto, main, moon, or dawn
+        dark_variant = 'main', -- main, moon, or dawn
         dim_inactive_windows = false,
         extend_background_behind_borders = true,
 
@@ -58,7 +59,17 @@ return {
           h6 = 'foam',
         },
       }
-      vim.cmd.colorscheme 'rose-pine'
+      -- local function set_custom_highlights()
+      --   vim.api.nvim_set_hl(0, '@property.css', { fg = palette.foam })
+      --   vim.api.nvim_set_hl(0, '@property.id.css', { fg = palette.pine })
+      --   vim.api.nvim_set_hl(0, '@property.class.css', { fg = palette.gold })
+      --   vim.api.nvim_set_hl(0, '@type.css', { fg = palette.iris })
+      --   vim.api.nvim_set_hl(0, '@type.tag.css', { fg = palette.iris })
+      --   vim.api.nvim_set_hl(0, '@string.plain.css', { fg = palette.pine })
+      --   vim.api.nvim_set_hl(0, '@number.css', { fg = palette.rose })
+      -- end
+      -- set_custom_highlights()
+      vim.cmd.colorscheme 'rose-pine-moon'
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'
     end,
