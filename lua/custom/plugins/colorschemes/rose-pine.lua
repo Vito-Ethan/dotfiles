@@ -24,7 +24,7 @@ return {
         styles = {
           bold = true,
           italic = true,
-          transparency = false,
+          transparency = true, -- Needed to have background image from iterm2 show in neovim
         },
 
         groups = {
