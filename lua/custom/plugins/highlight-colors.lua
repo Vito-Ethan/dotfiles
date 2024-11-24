@@ -2,7 +2,7 @@ return {
   'brenoprata10/nvim-highlight-colors',
   opts = {
     --- @usage 'background'|'foreground'|'virtual'
-    render = 'foreground',
+    render = 'background',
 
     ---Set virtual symbol position()
     ---@usage 'inline'|'eol'|'eow'
