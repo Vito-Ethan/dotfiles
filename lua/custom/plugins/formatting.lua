@@ -35,6 +35,7 @@ return {
         css = { 'prettier' },
         html = { 'prettier' },
         json = { 'prettier' },
+        go = { 'gofumpt', 'goimports-reviser' },
       },
     },
   },
