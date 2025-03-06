@@ -63,7 +63,7 @@ return {
           -- that doesn't consider files listed in .gitignore
           live_grep = {
             additional_args = function(opts)
-              return { '--no-ignore', '--hidden' }
+              return {}
             end,
           },
         },
