@@ -69,6 +69,7 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 15
 
 vim.o.tabstop = 4
+vim.o.shiftwidth = 4
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
