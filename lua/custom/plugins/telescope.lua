@@ -57,7 +57,6 @@ return {
         pickers = {
           find_files = {
             hidden = true, -- show hidden files (dot files)
-            no_ignore = true, -- show files ignored by .gitignore
           },
           -- NOTE: https://github.com/nvim-telescope/telescope.nvim/issues/855
           -- telescope uses ripgrep (often shortened to rg). --no-ignore is an option
