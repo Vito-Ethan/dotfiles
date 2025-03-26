@@ -14,6 +14,7 @@ return {
         python = { 'pylint' },
         html = { 'htmlhint' },
         css = { 'stylelint' },
+        go = { 'golangci-lint' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
