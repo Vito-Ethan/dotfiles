@@ -14,7 +14,7 @@ return {
         -- timeout_ms while it is formatting.
         local disable_filetypes = { c = true, cpp = true }
         return {
-          timeout_ms = 500,
+          timeout_ms = 2500,
           async = false,
           lsp_fallback = not disable_filetypes[vim.bo[bufnr].filetype],
         }
