@@ -91,6 +91,7 @@ vim.keymap.set('n', '<leader>cl', ':cclose<CR>', { desc = 'Close quickfix window
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 vim.keymap.set('n', '<leader>de', vim.diagnostic.open_float, { desc = 'Show [D]iagnostic [E]rror messages' })
+vim.keymap.set('n', '<leader>lc', '<cmd>lclose<CR>', { desc = 'Close the location list window' })
 vim.diagnostic.config { jump = { float = true } }
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
