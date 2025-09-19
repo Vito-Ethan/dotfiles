@@ -86,6 +86,7 @@ vim.keymap.set('n', '<leader>bd', ':%bd|e#|bd#<CR>', { desc = 'Delete all buffer
 -- Quickfix List Navigation
 vim.keymap.set('n', '<leader>cn', ':cnext<CR>', { desc = 'Next item in quickfix list' })
 vim.keymap.set('n', '<leader>cp', ':cnext<CR>', { desc = 'Previous item in quickfix list' })
+vim.keymap.set('n', '<leader>cl', ':cclose<CR>', { desc = 'Close quickfix window' })
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
