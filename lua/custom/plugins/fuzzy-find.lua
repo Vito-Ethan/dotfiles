@@ -16,13 +16,6 @@ return {
       desc = 'Smart Find Files',
     },
     {
-      '<leader>,',
-      function()
-        Snacks.picker.buffers()
-      end,
-      desc = 'Buffers',
-    },
-    {
       '<leader>/',
       function()
         Snacks.picker.grep()
@@ -56,7 +49,7 @@ return {
       function()
         Snacks.picker.buffers()
       end,
-      desc = 'Buffers',
+      desc = 'Find Buffers',
     },
     {
       '<leader>fc',
