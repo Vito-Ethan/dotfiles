@@ -18,8 +18,8 @@ return {
           changedelete = { text = '~' },
         },
       }
-      vim.keymap.set('n', '<leader>ph', ':Gitsigns preview_hunk<CR>', { desc = '[P]review [H]unk' })
-      vim.keymap.set('n', '<leader>rh', ':Gitsigns reset_hunk<CR>', { desc = '[R]eset [H]unk' })
+      vim.keymap.set('n', '<leader>ph', '<cmd>Gitsigns preview_hunk<CR>', { desc = '[P]review [H]unk' })
+      vim.keymap.set('n', '<leader>rh', '<cmd>Gitsigns reset_hunk<CR>', { desc = '[R]eset [H]unk' })
     end,
   },
 }
