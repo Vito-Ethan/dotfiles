@@ -7,6 +7,9 @@ return {
         -- See the configuration section for more details
         -- Load luvit types when the `vim.uv` word is found
         { path = '${3rd}/luv/library', words = { 'vim%.uv' } },
+        -- NOTE: this fixes undefined global snacks error in fuzzy-find.lua
+        -- https://www.reddit.com/r/neovim/comments/1i5lyhs/undefined_global_snacks_what_am_i_doing_wrong_the/
+        { path = 'snacks.nvim', words = { 'Snacks' } },
       },
     },
   },
