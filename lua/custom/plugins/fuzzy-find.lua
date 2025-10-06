@@ -4,7 +4,13 @@ return {
   lazy = false,
   ---@type snacks.Config
   opts = {
-    picker = {},
+    picker = {
+      sources = {
+        explorer = {
+          auto_close = true,
+        },
+      },
+    },
   },
   keys = {
     -- Top Pickers & Explorer
