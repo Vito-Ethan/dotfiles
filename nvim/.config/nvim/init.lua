@@ -94,6 +94,9 @@ vim.keymap.set('n', '<leader>de', vim.diagnostic.open_float, { desc = 'Show [D]i
 vim.keymap.set('n', '<leader>lc', '<cmd>lclose<CR>', { desc = 'Close the location list window' })
 vim.diagnostic.config { jump = { float = true } }
 
+-- LSP Keymaps
+vim.keymap.set('n', '<leader>.', vim.lsp.buf.code_action, { desc = 'Code Action' })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
