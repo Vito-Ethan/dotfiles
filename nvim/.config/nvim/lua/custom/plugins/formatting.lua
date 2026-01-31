@@ -37,6 +37,7 @@ return {
         json = { 'prettier' },
         jsonc = { 'prettier' },
         go = { 'gofumpt', 'goimports-reviser' },
+        markdown = { 'prettier' },
       },
     },
   },
